@@ -34,7 +34,6 @@ var $$ = Dom7;
 var $server = 'http://sifrao.bynn.es/';
 
 ofertasHome();
-getLocation();
 
 if (localStorage.getItem("email")) {
     $$(".profile_nome").html(localStorage.getItem("name"));
@@ -542,7 +541,7 @@ function cidades(){
 //////////////////////////////////// ofertasHome /////////////////////
 
 function ofertasHome(){ 
-
+    getLocation();
     myApp.showIndicator();
     $('#ofertasHome-cont').html("");
     $(".profile").removeClass("bg-brown bg-red bg-green bg-purple bg-indigo bg-amber bg-orange");
