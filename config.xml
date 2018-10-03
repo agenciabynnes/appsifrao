@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" android-versionCode="1" ios-CFBundleVersion="0.0.1" version="0.0.1" id="com.sifrao.android">
 
-<name>appsifrao</name>
+<name>Sifrão Ofertas</name>
 <description>App Sifrão Ofertas</description>
 <author>Agência Bynnes</author>
 <content src="index.html"/>
@@ -55,7 +55,10 @@
 
 <plugin name="cordova-plugin-inappbrowser" spec="1.4.0"/>
 <plugin name="phonegap-plugin-barcodescanner" />
-<plugin name="phonegap-facebook-plugin" />
+<plugin name="phonegap-facebook-plugin">
+    <variable name="APP_ID" value="577618282411589"/>
+    <variable name="APP_NAME" value="sifraoofertas"/>
+</plugin>
 <plugin name="cordova-plugin-compat" spec="1.0.0"/>
 <plugin name="cordova-plugin-splashscreen" spec="3.2.2"/>
 
