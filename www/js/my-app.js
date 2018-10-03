@@ -34,6 +34,8 @@ var $$ = Dom7;
 var $server = 'http://sifrao.bynn.es/';
 
 ofertasHome();
+getLocation();
+
 if (localStorage.getItem("email")) {
     $$(".profile_nome").html(localStorage.getItem("name"));
     $$(".profile_detalhes").html(localStorage.getItem("email"));
@@ -168,9 +170,10 @@ $$('.open-panel').on('click', function (e) {
     myApp.openPanel('left');
 });
 
-document.addEventListener('deviceready', logadoInitApp, false);
+//document.addEventListener('deviceready', logadoInitApp, false);
 
-document.addEventListener('app.Ready', logadoInitApp, false);
+//document.addEventListener('app.Ready', logadoInitApp, false);
+
 ///////////////////////// Add view /////////////////////////
 var mainView = myApp.addView('.view-main', {
     // Because we use fixed-through navbar we can enable dynamic navbar
@@ -407,13 +410,13 @@ function sair() {
         $$(".profile_detalhes").html("seu@email.com.br");
         $(".profile_foto").html('<img src="images/sem_avatar_icone.jpg"></div>');
 
-        facebookConnectPlugin.getLoginStatus(function(success){
+        /*facebookConnectPlugin.getLoginStatus(function(success){
             if(success.status === 'connected'){
                 facebookConnectPlugin.logout(function (success){
                     console.log(success);
                 });
             }
-        });
+        });*/
         navigator.app.exitApp();
         //window.location = "index.html";
     });
