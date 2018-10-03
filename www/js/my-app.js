@@ -2325,7 +2325,7 @@ function meusCuponsBd(idCupons) {
                 }
             }*/
         
-        document.addEventListener('app.Ready', onDeviceReady, true);
+        //document.addEventListener('app.Ready', onDeviceReady, true);
 
         function onDeviceReady() {
 
