@@ -541,7 +541,7 @@ function cidades(){
 //////////////////////////////////// ofertasHome /////////////////////
 
 function ofertasHome(){ 
-    getLocation();
+
     myApp.showIndicator();
     $('#ofertasHome-cont').html("");
     $(".profile").removeClass("bg-brown bg-red bg-green bg-purple bg-indigo bg-amber bg-orange");
@@ -651,6 +651,7 @@ function ofertasHome(){
                 //myApp.alert('Erro! Tente novamente.', 'Aptohome');
              }
         });
+        setTimeout("getLocation()",1000);
 }
 
 
