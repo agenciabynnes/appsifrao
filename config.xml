@@ -40,7 +40,7 @@
     <access origin="https://*.youtube.com"/>
     <access origin="https://*.youtube.com.br"/>
 </platform>
-<preference name="phonegap-version" value="cli-6.2.0" />
+<preference name="phonegap-version" value="cli-6.5.0" />
 <plugin name="cordova-plugin-crosswalk-webview" spec="^1.8.0">
 <variable name="XWALK_VERSION" value="18+"/>
 <variable name="XWALK_LITEVERSION" value="xwalk_core_library_canary:17+"/>
@@ -75,8 +75,8 @@
 <preference name="xwalkMode" value="embedded"/>
 <preference name="xwalkMultipleApk" value="true"/>
 <platform name="android" >
-    <preference name="android-minSdkVersion" value="17"/>
-    <preference name="android-targetSdkVersion" value="26"/>
+    <preference name="android-minSdkVersion" value="16"/>
+    <preference name="android-targetSdkVersion" value="21"/>
     <preference name="android-installLocation" value="auto"/>
     <preference name="Fullscreen" value="false"/>
     <preference name="Orientation" value="default"/>
