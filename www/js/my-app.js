@@ -31,7 +31,7 @@ var myApp = new Framework7({
 
 ///////////////////////// iniciar dom /////////////////////////
 var $$ = Dom7;
-var $server = 'http://sifrao.bynn.es/';
+var $server = 'https://sifrao.bynn.es/';
 
 ofertasHome();
 

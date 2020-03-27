@@ -79,12 +79,11 @@
 </edit-config>
 
 <!--<preference name="StatusBarOverlaysWebView" value="true" />-->
-<preference  name="AutoHideSplashScreen" value="true"/>
-<preference  name="SplashScreenDelay" value="3000"/>
-<preference  name="FadeSplashScreen" value="true"/>
-<preference  name="FadeSplashScreenDuration" value="0"/>
-<preference  name="ShowSplashScreenSpinner" value="false"/>
-<preference  name="SplashMaintainAspectRatio" value="true"/>
+<preference name="AutoHideSplashScreen" value="true"/>
+<preference name="FadeSplashScreen" value="false"/>
+<preference name="FadeSplashScreenDuration" value="0"/>
+<preference name="ShowSplashScreenSpinner" value="false"/>
+<preference name="SplashScreenDelay" value="0"/>
 <preference  name="DisallowOverscroll" value="true"/>
 <preference  name="UIWebViewBounce" value="false"/>
 <preference  name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,assets,root"/>
@@ -114,6 +113,7 @@
 <icon platform="android" src="package-assets/icon-48.png" density="mdpi" width="48" height="48"/>
 <icon platform="android" src="package-assets/icon-72.png" density="hdpi" width="72" height="72"/>
 <icon platform="android" src="package-assets/icon-96.png" density="xhdpi" width="96" height="96"/>
+
 <icon platform="ios" src="package-assets/icon-ios-29.png" width="29" height="29"/>
 <icon platform="ios" src="package-assets/icon-ios-58.png" width="58" height="58"/>
 <icon platform="ios" src="package-assets/icon-ios-87.png" width="87" height="87"/>
